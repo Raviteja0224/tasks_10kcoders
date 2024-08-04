@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend>Application Details</legend>
+        <form action="">
+           <pre><label for="Name">name</label>         <input type="text" name="name" id="Name">                    <label for="Father">Father/Guardian's name</label> <input type="text" name="father" id="Father">      
+           <br><label for="DOB">Date of birth</label> <input type="dob" name="dob" id="DOB">                    <label for="Gender">Gender</label>                <input type="radio" name="Gender" id="female"> <label for="female">Female</label> <input type="radio" name="Gender" id="Male"> <label for="Male">Male</label>
+
+<label for="age">Age As on</label>     <input type="number" name="age" id="age" min="0" max="100">                                  <label for="adhar">Adhaar No</label>             <input type="number" name="adhar" id="adhar">
+
+<label for="mobile">Mobile No</label>     <input type="number" name="mobile no" id="mobile">                    <label for="email">E-mail id</label>             <input type="text" name="email" id="email">
+
+<label for="photo">photo</label>         <input type="file" name="file" id="photo">
+        </pre>
+    </fieldset><br>
+    <fieldset>
+        <legend>Residentail Address Details</legend>
+           <pre><label for="address">Applicant's Address</label> <input type="text" name="address" id="address">            <label for="District">District</label> <input type="text" name="Destrict" id="District">
+
+<label for="mandal">Mandal</label>              <input type="text" name="mandal" id="mandal">              <label for="village">Village</label> <input type="text" name="village" id="village">
+
+<label for="pincode">Pincode</label>             <input type="number" name="number" id="number">
+           </pre> 
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Pass Type Details</legend><br>
+            <label for="city">City</label>
+            <select id="city" name="city" required>
+                <option value="hyderabad">hyderabad</option>
+                <option value="warangal">warangal</option>
+                <option value="nijamabad">nijamabad</option>
+                <option value="nalgonda">nalgonda</option>
+                </select><br><br>
+            <label for="passtype">passtype</label>
+            <select id="passtype" name="passtype">
+                <option value="local pass">local pass</option>
+                <option value="city pass">city pass</option>
+                </select>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Mode of Payment & Pass Collection</legend><br>
+            <label for="payment">Payment mode</label>
+            <select id="payment" name="payment" required>
+                <option value="credit card">credit card</option>
+                <option value="debit card">debit card</option>
+                <option value="cash">cash</option>
+                </select><br><br>
+            <label for="delivery mode">delivery mode</label>
+            <select id="mode" name="mode">
+                <option value="online">online</option>
+                <option value="offline">offline</option>
+                </select><br><br>
+                <label for="center">collected pass center</label>
+            <select id="center" name="center">
+                <option value="hyd">hyd</option>
+                <option value="wgl">wgl</option>
+                </select>
+    </fieldset><br><br>
+   <center> <label for="submit">Please submit your form</label>
+    <input type="submit"></center>
+</form>
+</body>
+</html>
